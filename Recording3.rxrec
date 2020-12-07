@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f9a01e8f-93cc-4ca8-81e8-e01143e59ce5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording3"
+	namespace="MyTest4">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+			</filename>
+			<workingdir>
+				%HOMEDRIVE%%HOMEPATH%
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<keysequenceitem
+		KeySequence="{Escape}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="9854fc02-5ea5-4759-a427-a17a2d94bf3e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e32f5a72-275e-4f9a-a3cb-1a66ebe1d4e2"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@processname='EXCEL']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@accessiblename='']
+				</path>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="5a21a7a7-7d35-484c-b1d7-0788266c1c12"
+	name="MyTest4Repository"
+	relativepath="MyTest4Repository.rxrep">
+		<codegen
+		classname="MyTest4Repository"
+		namespace="MyTest4">
+		</codegen>
+		<rootfolder
+		id="060658ae-2975-49c0-a8d0-d1c0d53ccceb"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording3.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

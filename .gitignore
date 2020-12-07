@@ -1,0 +1,9 @@
+# Ranorex Specific files
+[Rr]eports
+*.rxlog
+*.rxlog.data
+*.jpg
+*.rxuser
+*.pref
+bin
+obj

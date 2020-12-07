@@ -1,0 +1,207 @@
+﻿<repository
+id="5a21a7a7-7d35-484c-b1d7-0788266c1c12"
+name="MyTest4Repository">
+	<codegen
+	classname="MyTest4Repository"
+	namespace="MyTest4">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="060658ae-2975-49c0-a8d0-d1c0d53ccceb"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="81ed4c70-e124-4f24-aad7-4863c9d19e53"
+		isrooted="True"
+		name="ArukeresőHuArakEsTermekekOesszeha"
+		refpath="/dom[@domain='www.arukereso.hu']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="2cccc0ca-2801-4d1a-916a-3b70a7a4d994"
+			name="InputTagSt"
+			refimgid="8d6c496f-8c38-4bfc-904f-c134c289ff36"
+			refpath="/dom[@domain='www.arukereso.hu']//input[#'st']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.arukereso.hu']//input[#'st']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="dc1b9e29-cede-4bca-b3d8-a7037d523737"
+			name="ATagKereses"
+			refimgid="a85fc4db-4f85-46e6-ad60-95fb502a0514"
+			refpath="/dom[@domain='www.arukereso.hu']//form[#'aksearch']/div[1]/span/a[@innertext=' Keresés']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.arukereso.hu']//form[#'aksearch']//a[@innertext=' Keresés']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="da2db12f-10d6-49f3-a14e-f282f97aabf2"
+			name="SportoraOkosoraKiegeszitő"
+			refimgid="ecd6e227-a3ce-48f0-a053-f32410a9a6ea"
+			refpath="/dom[@domain='www.arukereso.hu']//section[#'filter-bar']/div[2]/ul/li[1]/a[@innertext='Sportóra, okosóra kiegészítő']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.arukereso.hu']//section[#'filter-bar']/div[2]/ul/?/?/a[@innertext&gt;'Sport&#243;ra, okos&#243;ra kieg&#233;sz']
+			</item>
+			<basepath>
+				/dom[@domain='www.arukereso.hu']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="08c3c90c-39b2-4d94-828a-c5add3e85359"
+		isrooted="True"
+		name="VasarlasSportoraOkosoraKiegeszitőA"
+		refpath="/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fe34b9fe-c4df-4218-9e3f-d8eb84ba53cc"
+			name="OrderDropdown"
+			refimgid="4155b47a-adc3-40b4-a59a-c79625074fe9"
+			refpath="/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']//a[#'order-dropdown']"
+			searchtimeout="30000ms">
+				/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']//a[#'order-dropdown']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="973c6eb9-8782-4ef9-b1c0-f3c5008f587b"
+			name="ATagDragak"
+			refimgid="e795caad-822e-46c0-8514-0a486a3e1e82"
+			refpath="/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']//span[#'orderby-container']/ul/li[3]/a[@innertext=' Drágák']"
+			searchtimeout="30000ms">
+				/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']//span[#'orderby-container']//a[@innertext=' Drágák']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="atag"
+			id="87095f23-44fb-47fd-a674-dec987eef26a"
+			name="ProductName"
+			refimgid="1760c1c3-3cc3-4ed9-9d98-d29136cb583b"
+			searchtimeout="30000ms">
+				/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']//div[#'product-list']/div[2]/div[$i]//h2/a
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b24e2096-39b3-4e50-b2fe-e61df799b6b3"
+			name="ProductPrice"
+			refimgid="ab43333c-cede-413a-a172-8a43d1b7c561"
+			searchtimeout="30000ms">
+				/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']//div[#'product-list']/div[2]/div[$i]/div[1]/div[3]/a[1]
+			</item>
+			<basepath>
+				/dom[@domain='sportora-okosora-kiegeszito.arukereso.hu']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="beb05c59-d7cb-4c17-b4c0-813ac746ef47"
+		isrooted="True"
+		name="Excel"
+		refimgid="db793fd1-b763-4a49-95e0-47671a42993e"
+		refpath="/form[@processname='EXCEL']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="e32f5a72-275e-4f9a-a3cb-1a66ebe1d4e2"
+			name="Pane"
+			refimgid="54527c65-b546-4900-99b5-97fa15d6df10"
+			refpath="/form[@processname='EXCEL']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@accessiblename='']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/element[@class='FullpageUIHost']/container[@class='NetUIHWND']/container[@accessiblename='']
+			</item>
+			<item
+			addcaps="cell,excelrange"
+			capname="cell"
+			id="32c78e63-f6a1-4d4a-9dd3-bd71df2de14a"
+			name="CellA1"
+			refimgid="c8cad042-ab27-4e5e-ba93-80b3eaa43c4d"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell
+			</item>
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="26af649f-fcb2-483a-9c45-faae1c7b454e"
+			name="FormulaBar"
+			refimgid="d5432fdb-346f-497d-9948-af79bf30ef0c"
+			refpath="/form[@processname='EXCEL']/element[@class='EXCEL&lt;']/text[@automationid='FormulaBar']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/?/?/text[@automationid='FormulaBar']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFSSURBVDhPY6A6UFyc9h8b1tpS8t/4SCMqPtz4
+DaoNAbBpBmGsBgAxA3+142aBGsf9MCzS5vUfHUv0BeM2AKjpPyHMl2f5X7TYBavLwAYI1zn/z1rb
++f/M4+v/LScn/XecnvF/89XD/33nFUEMyAUaUOiM2wAQNpsY///is1v/99w+9X/J2e3/t14/8l+z
+K5R4A4Rqnf/nre/+//vvn/933jz5H7usDixGtAEgHL+8/j8IPHz//L/P3EK4OH+mxX++UD04HxnD
+DTDqiwGHwcYrB//vuXXq/6oLu/8rtvqD5QgaIFLn8r9oY///809v/tfrjfwfvqTq/+nH1/77zSsG
+KyJoAMivWl1h/80nJYAFJRs9wbGh0h4I5uM3oNrxPTYJZMyfavZfyFXzv0SMOQaGJmAE4LdS+o+O
+BayV/4v46xNnADZF+DBUGwKIR5s7EI/NHQBnwLS9C9/ASQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="0400daa3-ae83-4b29-b709-34e61781a125"
+		name="NameOfItem">
+			NotFound
+		</var>
+		<var
+		id="bfdecc38-b710-483b-9d50-bb9f7c73bdf0"
+		name="i">
+			1
+		</var>
+	</variables>
+</repository>
